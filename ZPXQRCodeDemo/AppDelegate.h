@@ -1,5 +1,5 @@
 //
-//  ZPXWebViewController.h
+//  AppDelegate.h
 //  ZPXQRCodeDemo
 //
 //  Created by zpx on 2017/3/30.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZPXWebViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
 
 @end
+

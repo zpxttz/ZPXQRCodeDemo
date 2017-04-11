@@ -1,5 +1,5 @@
 //
-//  ZPXWebViewController.h
+//  ViewController.h
 //  ZPXQRCodeDemo
 //
 //  Created by zpx on 2017/3/30.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZPXWebViewController : UIViewController
+@interface ViewController : UIViewController
+
 
 @end
+
