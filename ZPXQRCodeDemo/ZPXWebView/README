@@ -1,0 +1,17 @@
+
+/*
+    只是一个WebView, 有进度条,可以刷新
+    ZPXWebView *webView = [[ZPXWebView alloc]initWithFrame:self.view.bounds];
+
+    webView.progressViewColor = [UIColor redColor];
+
+    //不好用
+    webView.navigationItemTitle = @"标题";
+
+    //不好用
+    webView.isNavigationBarOrTranslucent = YES;
+
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://delta.qrcreate.h5.ersansan.cn/maker/#/"]]];
+
+    [self.view addSubview:webView];
+*/

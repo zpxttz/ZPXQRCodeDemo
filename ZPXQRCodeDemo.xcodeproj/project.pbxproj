@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4203CE71E8D00B2002D9CCB /* ZPXWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4203CE61E8D00B2002D9CCB /* ZPXWebView.m */; };
+		A4203CEA1E8D0B60002D9CCB /* ZPXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4203CE91E8D0B60002D9CCB /* ZPXWebViewController.m */; };
 		A49649421E8C9EDE00353A9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A49649411E8C9EDE00353A9E /* main.m */; };
 		A49649451E8C9EDE00353A9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A49649441E8C9EDE00353A9E /* AppDelegate.m */; };
 		A49649481E8C9EDE00353A9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49649471E8C9EDE00353A9E /* ViewController.m */; };
 		A496494B1E8C9EDE00353A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49649491E8C9EDE00353A9E /* Main.storyboard */; };
 		A496494D1E8C9EDE00353A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A496494C1E8C9EDE00353A9E /* Assets.xcassets */; };
 		A49649501E8C9EDE00353A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A496494E1E8C9EDE00353A9E /* LaunchScreen.storyboard */; };
+		A49649591E8CA07500353A9E /* ZPXQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A49649581E8CA07500353A9E /* ZPXQRCode.bundle */; };
+		A49649611E8CAAC500353A9E /* UIImage+ZPXQRHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A49649601E8CAAC500353A9E /* UIImage+ZPXQRHelper.m */; };
+		A496496D1E8CB7F700353A9E /* ZPXQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = A496496C1E8CB7F700353A9E /* ZPXQRCodeScanningView.m */; };
+		A49649731E8CB9DC00353A9E /* ZPXQRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A49649721E8CB9DC00353A9E /* ZPXQRCodeScanningVC.m */; };
+		A49649841E8CE1B100353A9E /* ZPXQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A49649831E8CE1B100353A9E /* ZPXQRCodeTool.m */; };
+		A4ECFE5F1E8DE08A008DBF98 /* generateQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4ECFE5E1E8DE08A008DBF98 /* generateQRCodeVC.m */; };
+		A4ECFE611E8DE252008DBF98 /* 马刺队标.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4ECFE601E8DE252008DBF98 /* 马刺队标.jpg */; };
+		A4ECFE651E8DE62D008DBF98 /* README in Resources */ = {isa = PBXBuildFile; fileRef = A4ECFE641E8DE62D008DBF98 /* README */; };
+		A4ECFE671E8DE973008DBF98 /* README in Resources */ = {isa = PBXBuildFile; fileRef = A4ECFE661E8DE973008DBF98 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4203CE51E8D00B2002D9CCB /* ZPXWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPXWebView.h; sourceTree = "<group>"; };
+		A4203CE61E8D00B2002D9CCB /* ZPXWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPXWebView.m; sourceTree = "<group>"; };
+		A4203CE81E8D0B60002D9CCB /* ZPXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPXWebViewController.h; sourceTree = "<group>"; };
+		A4203CE91E8D0B60002D9CCB /* ZPXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPXWebViewController.m; sourceTree = "<group>"; };
 		A496493D1E8C9EDE00353A9E /* ZPXQRCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPXQRCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49649411E8C9EDE00353A9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A49649431E8C9EDE00353A9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +41,20 @@
 		A496494C1E8C9EDE00353A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A496494F1E8C9EDE00353A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A49649511E8C9EDE00353A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49649581E8CA07500353A9E /* ZPXQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZPXQRCode.bundle; sourceTree = "<group>"; };
+		A496495F1E8CAAC500353A9E /* UIImage+ZPXQRHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZPXQRHelper.h"; sourceTree = "<group>"; };
+		A49649601E8CAAC500353A9E /* UIImage+ZPXQRHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZPXQRHelper.m"; sourceTree = "<group>"; };
+		A496496B1E8CB7F700353A9E /* ZPXQRCodeScanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPXQRCodeScanningView.h; sourceTree = "<group>"; };
+		A496496C1E8CB7F700353A9E /* ZPXQRCodeScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPXQRCodeScanningView.m; sourceTree = "<group>"; };
+		A49649711E8CB9DC00353A9E /* ZPXQRCodeScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPXQRCodeScanningVC.h; sourceTree = "<group>"; };
+		A49649721E8CB9DC00353A9E /* ZPXQRCodeScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPXQRCodeScanningVC.m; sourceTree = "<group>"; };
+		A49649821E8CE1B100353A9E /* ZPXQRCodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPXQRCodeTool.h; sourceTree = "<group>"; };
+		A49649831E8CE1B100353A9E /* ZPXQRCodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPXQRCodeTool.m; sourceTree = "<group>"; };
+		A4ECFE5D1E8DE08A008DBF98 /* generateQRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = generateQRCodeVC.h; sourceTree = "<group>"; };
+		A4ECFE5E1E8DE08A008DBF98 /* generateQRCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = generateQRCodeVC.m; sourceTree = "<group>"; };
+		A4ECFE601E8DE252008DBF98 /* 马刺队标.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "马刺队标.jpg"; sourceTree = "<group>"; };
+		A4ECFE641E8DE62D008DBF98 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A4ECFE661E8DE973008DBF98 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +68,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4203CE41E8D00B2002D9CCB /* ZPXWebView */ = {
+			isa = PBXGroup;
+			children = (
+				A4203CE51E8D00B2002D9CCB /* ZPXWebView.h */,
+				A4203CE61E8D00B2002D9CCB /* ZPXWebView.m */,
+				A4ECFE661E8DE973008DBF98 /* README */,
+			);
+			path = ZPXWebView;
+			sourceTree = "<group>";
+		};
 		A49649341E8C9EDE00353A9E = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +97,17 @@
 		A496493F1E8C9EDE00353A9E /* ZPXQRCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A4203CE41E8D00B2002D9CCB /* ZPXWebView */,
+				A49649571E8C9F1D00353A9E /* ZPXQRCode */,
 				A49649431E8C9EDE00353A9E /* AppDelegate.h */,
 				A49649441E8C9EDE00353A9E /* AppDelegate.m */,
 				A49649461E8C9EDE00353A9E /* ViewController.h */,
 				A49649471E8C9EDE00353A9E /* ViewController.m */,
+				A4203CE81E8D0B60002D9CCB /* ZPXWebViewController.h */,
+				A4203CE91E8D0B60002D9CCB /* ZPXWebViewController.m */,
+				A4ECFE5D1E8DE08A008DBF98 /* generateQRCodeVC.h */,
+				A4ECFE5E1E8DE08A008DBF98 /* generateQRCodeVC.m */,
+				A4ECFE601E8DE252008DBF98 /* 马刺队标.jpg */,
 				A49649491E8C9EDE00353A9E /* Main.storyboard */,
 				A496494C1E8C9EDE00353A9E /* Assets.xcassets */,
 				A496494E1E8C9EDE00353A9E /* LaunchScreen.storyboard */,
@@ -77,6 +123,47 @@
 				A49649411E8C9EDE00353A9E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A49649571E8C9F1D00353A9E /* ZPXQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				A49649821E8CE1B100353A9E /* ZPXQRCodeTool.h */,
+				A49649831E8CE1B100353A9E /* ZPXQRCodeTool.m */,
+				A496495A1E8CAA7F00353A9E /* category */,
+				A496495B1E8CAA7F00353A9E /* controller */,
+				A496495D1E8CAA7F00353A9E /* view */,
+				A49649581E8CA07500353A9E /* ZPXQRCode.bundle */,
+				A4ECFE641E8DE62D008DBF98 /* README */,
+			);
+			path = ZPXQRCode;
+			sourceTree = "<group>";
+		};
+		A496495A1E8CAA7F00353A9E /* category */ = {
+			isa = PBXGroup;
+			children = (
+				A496495F1E8CAAC500353A9E /* UIImage+ZPXQRHelper.h */,
+				A49649601E8CAAC500353A9E /* UIImage+ZPXQRHelper.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		A496495B1E8CAA7F00353A9E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A49649711E8CB9DC00353A9E /* ZPXQRCodeScanningVC.h */,
+				A49649721E8CB9DC00353A9E /* ZPXQRCodeScanningVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A496495D1E8CAA7F00353A9E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A496496B1E8CB7F700353A9E /* ZPXQRCodeScanningView.h */,
+				A496496C1E8CB7F700353A9E /* ZPXQRCodeScanningView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,8 +197,8 @@
 				TargetAttributes = {
 					A496493C1E8C9EDE00353A9E = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = WMV4ECLHGL;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = SW3JSJSY9N;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -138,9 +225,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4ECFE651E8DE62D008DBF98 /* README in Resources */,
+				A49649591E8CA07500353A9E /* ZPXQRCode.bundle in Resources */,
+				A4ECFE611E8DE252008DBF98 /* 马刺队标.jpg in Resources */,
 				A49649501E8C9EDE00353A9E /* LaunchScreen.storyboard in Resources */,
 				A496494D1E8C9EDE00353A9E /* Assets.xcassets in Resources */,
 				A496494B1E8C9EDE00353A9E /* Main.storyboard in Resources */,
+				A4ECFE671E8DE973008DBF98 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +243,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A49649481E8C9EDE00353A9E /* ViewController.m in Sources */,
+				A49649841E8CE1B100353A9E /* ZPXQRCodeTool.m in Sources */,
+				A4203CE71E8D00B2002D9CCB /* ZPXWebView.m in Sources */,
+				A49649731E8CB9DC00353A9E /* ZPXQRCodeScanningVC.m in Sources */,
+				A496496D1E8CB7F700353A9E /* ZPXQRCodeScanningView.m in Sources */,
+				A49649611E8CAAC500353A9E /* UIImage+ZPXQRHelper.m in Sources */,
+				A4203CEA1E8D0B60002D9CCB /* ZPXWebViewController.m in Sources */,
+				A4ECFE5F1E8DE08A008DBF98 /* generateQRCodeVC.m in Sources */,
 				A49649451E8C9EDE00353A9E /* AppDelegate.m in Sources */,
 				A49649421E8C9EDE00353A9E /* main.m in Sources */,
 			);
@@ -275,11 +373,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WMV4ECLHGL;
+				DEVELOPMENT_TEAM = SW3JSJSY9N;
 				INFOPLIST_FILE = ZPXQRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zpx.ZPXQRCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d3fd2ac5-d861-48a9-bd7c-eb39a3bcbaa1";
+				PROVISIONING_PROFILE_SPECIFIER = dev_city;
 			};
 			name = Debug;
 		};
@@ -287,11 +388,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WMV4ECLHGL;
+				DEVELOPMENT_TEAM = SW3JSJSY9N;
 				INFOPLIST_FILE = ZPXQRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zpx.ZPXQRCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d3fd2ac5-d861-48a9-bd7c-eb39a3bcbaa1";
+				PROVISIONING_PROFILE_SPECIFIER = dev_city;
 			};
 			name = Release;
 		};
@@ -314,6 +418,7 @@
 				A49649561E8C9EDE00353A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
